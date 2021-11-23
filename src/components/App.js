@@ -1,13 +1,8 @@
 import React from "react";
-import styled from "styled-components";
+import AppRouter from "./router";
 
 function App() {
-  return <Container>hello</Container>;
+  return <AppRouter />;
 }
-
-const Container = styled.div`
-  background-color: steelblue;
-  color: #fff;
-`;
 
 export default App;
